@@ -28,6 +28,8 @@
 #
 # Parts of this file are originally copyright (c) 2012-2013 The Cryptonote developers
 
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "ldczcncoind")
+
 if (WIN32 OR STATIC)
   add_definitions(-DSTATICLIB)
   # miniupnp changed their static define
