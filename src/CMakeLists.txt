@@ -28,7 +28,7 @@
 #
 # Parts of this file are originally copyright (c) 2012-2013 The Cryptonote developers
 
-set_property(TARGET daemon PROPERTY OUTPUT_NAME "ldczcncoind")
+# set_property(TARGET daemon PROPERTY OUTPUT_NAME "ldczcncoind") - error
 
 if (WIN32 OR STATIC)
   add_definitions(-DSTATICLIB)
