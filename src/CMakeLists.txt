@@ -29,8 +29,8 @@
 # Parts of this file are originally copyright (c) 2012-2013 The Cryptonote developers
 
 
-set(PER_BLOCK_CHECKPOINT 0)
-# set(OUTPUT_NAME "ldczcncoin")
+# set(PER_BLOCK_CHECKPOINT 0)
+set(OUTPUT_NAME "ldczcncoin")
 
 
 if (WIN32 OR STATIC)
