@@ -30,7 +30,7 @@
 
 
 set(PER_BLOCK_CHECKPOINT 0)
-set(OUTPUT_NAME "ldczcncoin")
+# set(OUTPUT_NAME "ldczcncoin")
 
 
 if (WIN32 OR STATIC)
